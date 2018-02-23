@@ -2,7 +2,7 @@
   "name": "squarebit/dovetail",
   "description": "A Laravel 5 wrapper for the Teamwork API",
   "type": "library",
-  "license": "Creative Commons Attribution NonCommercial",
+  "license": "CC-BY-NC-4.0",
   "authors": [
     {
       "name": "Zachary Schuessler",
