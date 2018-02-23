@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="../../../vendor/autoload.php"
+         backupGlobals="false"
+         backupStaticAttributes="false"
+         colors="true"
+         verbose="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="true"
+         stopOnFailure="false">
+    <testsuites>
+        <testsuite name="Dovetail">
+            <directory>tests</directory>
+        </testsuite>
+        <testsuite name="Dovetail_Account">
+            <file>tests/AccountRequestTest.php</file>
+        </testsuite>
+        <testsuite name="Dovetail_Activity">
+            <file>tests/ActivityRequestTest.php</file>
+        </testsuite>
+        <testsuite name="Dovetail_Billing">
+            <file>tests/BillingRequestTest.php</file>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">src/</directory>
+        </whitelist>
+    </filter>
+</phpunit>
